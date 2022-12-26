@@ -1,10 +1,9 @@
+import { Rute } from './config/Config';
 import './css/style.css';
 
 function App() {
   return (
-    <div>
-      Hello boy
-    </div>
+    <Rute/>
   );
 }
 

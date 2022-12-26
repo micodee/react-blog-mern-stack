@@ -1,0 +1,11 @@
+04 - Struktur Folder ReactJS menambahkan folder :
+> components
+> config
+> pages
+> utils
+
+05 - Membuat Navigasi / Router
+> npm i react-router-dom (membuat router)
+> buat folder baru di config bernama router dan file Router.js
+> Router.js rafce > <BrowserRouter> (membungkus semua routing)
+> buat pages baru 
