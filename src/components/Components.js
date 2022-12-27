@@ -5,5 +5,6 @@ import Link from "./atoms/link/Link";
 
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
+import BlogItem from "./blogitem/BlogItem";
 
-export { Input, Button, Gap, Link, Header, Footer };
+export { Input, Button, Gap, Link, Header, Footer, BlogItem };
