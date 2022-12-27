@@ -1,5 +1,8 @@
 @use 'base';
 @use './../pages/register/register.scss';
-@use './../components/inputs/input';
-@use './../components/button/button';
-@use './../components/link/link';
+@use './../components/atoms/inputs/input';
+@use './../components/atoms/button/button';
+@use './../components/atoms/link/link';
+@use './../components/header/header';
+@use './../components/footer/footer';
+@use './../config/router/mainapp.scss';
