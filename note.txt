@@ -9,3 +9,6 @@
 > buat folder baru di config bernama router dan file Router.js
 > Router.js rafce > <BrowserRouter> (membungkus semua routing)
 > buat pages baru 
+
+06 - Membuat Basic components
+> npm i node-sass (untuk membaca file sass)
