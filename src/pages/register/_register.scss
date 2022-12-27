@@ -1,14 +1,14 @@
-.register {
+.main-page {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.register .left {
+.main-page .left {
     flex: 1;
     height: 100vh;
     overflow: hidden;
 }
-.register .right {
+.main-page .right {
     width: 460px;
     background: white;
     height: 100vh;
@@ -18,7 +18,7 @@
     justify-content: center;
 }
 
-.register .bg-register {
+.main-page .bg-image {
     width: 100%;
     min-height: 100%;
     object-fit: cover;

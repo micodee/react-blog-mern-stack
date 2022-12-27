@@ -4,9 +4,9 @@ import { RegisterBg } from '../../img/Img'
 
 const Register = () => {
   return (
-    <div className='register'>
+    <div className='main-page'>
         <div className="left">
-            <img src={RegisterBg} className="bg-register" alt="register" loading='lazy'/>
+            <img src={RegisterBg} className="bg-image" alt="register" loading='lazy'/>
         </div>
         <div className="right">
             <p className='title'>Register</p>
