@@ -4,7 +4,10 @@
 @use './../components/atoms/inputs/input';
 @use './../components/atoms/button/button';
 @use './../components/atoms/link/link';
+@use './../components/atoms/upload/upload';
+@use './../components/atoms/textarea/textarea';
 @use './../components/header/header';
 @use './../components/footer/footer';
 @use './../components/blogitem/blogitem';
+@use './../pages/blogCreate/createblog';
 @use './../config/router/mainapp.scss';
