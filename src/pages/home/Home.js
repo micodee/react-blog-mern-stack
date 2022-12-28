@@ -1,11 +1,13 @@
 import React from "react";
 import { BlogItem, Button, Gap } from "../../components/Components";
+import { useNavigate } from "react-router-dom"
 
 const Home = () => {
+  const navigate = useNavigate()
   return (
     <div className="home-page-wrapper">
       <div className="create-wrapper">
-        <Button title="Create Blog" />
+        <Button title="Create Blog" onClick={() => navigate("/create-blog")} />
       </div>
       <Gap height={20} />
       <div className="content-wrapper">
