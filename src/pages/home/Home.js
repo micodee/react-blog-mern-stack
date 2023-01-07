@@ -1,8 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { BlogItem, Button, Gap } from "../../components/Components";
 import { useNavigate } from "react-router-dom"
+import Axios from 'axios'
 
 const Home = () => {
+  useEffect(() => {
+    Axios.get('http://localhost:3000/v1/blog/posts')
+    .then(result => {
+      console.log('data api', result.data);
+    })
+    .catch(err => {
+      console.log('error: ', err);
+    })
+  }, [])
   const navigate = useNavigate()
   return (
     <div className="home-page-wrapper">
