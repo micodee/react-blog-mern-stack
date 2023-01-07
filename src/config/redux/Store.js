@@ -1,26 +1,7 @@
 import { legacy_createStore } from "redux";
+import Reducer from "./reducer/Reducer";
 
-const initialState = {
-  dataBlogs: [],
-  name: "micode",
-};
 
-const reducer = (state = initialState, action) => {
-  if (action.type === 'UPDATE_DATA_BLOG'){
-    return{
-        ...state,
-        dataBlogs: action.payload // bisa juga gunakan = dataBlog: action.value
-    }
-  } 
-  if (action.type === 'UPDATE_NAME'){
-    return{
-        ...state, // state lama dlcopy kemudian
-        name: 'marcel' // dirubah
-    }
-  }
-  return state;
-};
-
-const Store = legacy_createStore(reducer);
+const Store = legacy_createStore(Reducer);
 
 export default Store;
