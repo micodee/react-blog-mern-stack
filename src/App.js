@@ -1,9 +1,12 @@
-import { Rute } from './config/Config';
-import './css/style.css';
+import { Provider } from "react-redux";
+import { Rute, Store } from "./config/Config";
+import "./css/style.css";
 
 function App() {
   return (
-    <Rute/>
+    <Provider store={Store}>
+      <Rute />
+    </Provider>
   );
 }
 
