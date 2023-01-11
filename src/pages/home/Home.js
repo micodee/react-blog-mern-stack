@@ -12,13 +12,13 @@ const Home = () => {
     Axios.get('http://localhost:3000/v1/blog/posts?page=1&perPage=6')
     .then(result => {
       const responseAPI = result.data
-
-      dispatch({type: 'UPDATE_DATA_BLOG', payload: responseAPI.data})
+      dispatch({type: 'UPDATE_DATA_BLOG', payload: responseAPI.data}) 
     })
     .catch(err => {
       console.log('error: ', err);
     })
-  }, [])
+  }, [dispatch])
+  
   const navigate = useNavigate()
   return (
     <div className="home-page-wrapper">
