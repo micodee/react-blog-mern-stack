@@ -12,3 +12,5 @@
 
 06 - Membuat Basic components
 > npm i node-sass (untuk membaca file sass)
+
+tes
